@@ -1,0 +1,180 @@
+body{
+ background-color:#6E6E6E; 
+   padding: 0;
+ margin: 0;
+}
+.container{
+  width:400px;
+  margin:0 auto;
+}
+#title{
+  font-family:'Righteous', cursive;
+  font-size:75px;
+  text-align:center;
+  
+}
+.simon_game{
+  position:relative;
+  background-color:#000000;
+  border-radius:50%;
+  margin:20px;
+  width:400px;
+    height:400px;
+}
+#red{
+  left:15px;
+  top:15px;
+  background:red;
+  border-radius:320px 20px 20px;
+  
+  
+}
+#blue{
+  right:15px;
+  top:15px;
+   background:blue;
+    border-radius:20px 320px 20px 20px;
+  
+}
+#yellow{
+  left:15px;
+  bottom:15px;
+   background:yellow;
+    border-radius:20px 20px 20px 320px;
+  
+}
+#green{
+  right:15px;
+  bottom:15px;
+   background:green;
+    border-radius:20px 20px 320px 20px;
+  
+  
+}
+#center{
+  font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+    line-height: 160%;
+    position:absolute;
+    display:block;
+    background:rgb(255,255,255);
+  width:120px;
+    height:120px;
+    border-radius:100%;
+    left:50%;
+    top:50%;
+    text-align:center;
+    z-index:100;
+    left:50%;
+    top:50%;
+    z-index:100;
+    margin:-60px;
+}
+#screen{
+  font-family: font-family:'Righteous', cursive;
+  position:relative;
+  color:red;
+  font-size:17px;
+  background-color:black;
+  width:45px;
+  height:30px;
+  border: 4px solid grey;
+  border-radius: 25px;
+  left:27%;
+top:3%;
+}
+#strictBtn{
+   font-family:'Righteous', cursive;
+   position: relative;
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 50px;
+    height:50px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+  
+}
+
+#strictBtn:after{
+      content: "";
+    background-color:#585858;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1s
+}
+#strictBtn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+#startBtn{
+   font-family:'Righteous', cursive;
+   position: relative;
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 50px;
+    height:50px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  outline: none;
+  
+}
+
+#startBtn:after{
+      content: "";
+    background-color:#585858;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1s
+}#startBtn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+#onBtn{
+  border:solid 2px black;
+  border-radius:50%;
+   outline: none;
+   cursor:pointer;
+  background:"#BDBDBD";
+  font-family:font-family:'Righteous', cursive;
+   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#onBtn:active{
+  background:"#848484";
+  box-shadow:none;
+}
+
+.Button{
+  position:absolute;
+  width:180px;
+  height:180px;
+  margin:2px;
+  
+}
+
+
